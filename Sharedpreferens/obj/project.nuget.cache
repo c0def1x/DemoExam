@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "zsyVzR6g6QN4kjq53MlnHWRIAN4qeVlRaWxNgOL0Uo3hTZTAJAsqwanI+a+mV+0Hn8tAvmO+UagNNgQnBfbVrw==",
+  "success": true,
+  "projectFilePath": "D:\\Ivan\\C# projects\\SharedPreferens\\SharedPreferens\\SharedPreferens.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iRu\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\iRu\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\iRu\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\iRu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\iRu\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}

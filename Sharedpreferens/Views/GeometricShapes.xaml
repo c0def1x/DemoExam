@@ -1,0 +1,17 @@
+﻿<Window x:Class="SharedPreferens.Views.GeometricShapes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SharedPreferens.Views"
+        mc:Ignorable="d"
+        Title="GeometricShapes" 
+        Height="640" 
+        Width="360" 
+        Background="#619BDE">
+    <StackPanel>
+        <Label Content="Геометрические фигуры" HorizontalAlignment="Center" Foreground="White" FontSize="24" FontWeight="Bold" Margin="0 70 0 72"/>
+        <Image Source="../Images/logo.png" Height="253" Width="253" Margin="0 0 0 97"/>
+        <Button Style="{DynamicResource RoundButton}" Click="NavigateToChooseShape" Content="Начать" Foreground="White" Background="#54E18D" FontSize="24" FontWeight="Bold"/>
+    </StackPanel>
+</Window>

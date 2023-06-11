@@ -1,0 +1,22 @@
+﻿<Window x:Class="SharedPreferens.Views.ChooseShape"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SharedPreferens.Views"
+        mc:Ignorable="d"
+        Title="ChooseShape" 
+        Height="640" 
+        Width="360" 
+        Background="#619BDE">
+    <StackPanel>
+        <Label Content="Выбор фигуры" HorizontalAlignment="Center" Foreground="White" FontSize="24" FontWeight="Bold" Margin="0 22 0 23"/>
+        <Image x:Name="image" Source="../Images/logo.png" Height="150" Width="133" Margin="0 0 0 62"/>
+        <ListView Width="300" SelectionChanged="ChangeImage" x:Name="choose" Margin="0 0 0 35">
+            <TextBlock>Треугольник</TextBlock>
+            <TextBlock>Круг</TextBlock>
+        </ListView>
+        <TextBox x:Name="dataForCalculate" Style="{DynamicResource RoundTextBox}" Margin="0 0 0 50"/>
+        <Button Click="NavigateToGeometricCalculator" Style="{DynamicResource RoundButton}" Content="Выполнить расчет" Foreground="White" Background="#54E18D" FontSize="24" FontWeight="Bold"/>
+    </StackPanel>
+</Window>
